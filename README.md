@@ -17,7 +17,7 @@ A Telegram bot backend for `@wayffreedbot` using Binance public market data and 
 1. Put this folder into a GitHub repository.
 2. In Render, choose **New → Web Service**, connect the repository.
 3. Build: `pip install -r requirements.txt`
-4. Start: `uvicorn main:app --host 0.0.0.0 --port $PORT`
+4. Start: `uvicorn main.py--host 0.0.0.0 --port $PORT`
 5. Choose the Free plan for testing.
 6. Add environment variables:
    - `TELEGRAM_BOT_TOKEN` = your private BotFather token
